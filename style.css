@@ -1,0 +1,295 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+header{
+	background-size: 100% 600px;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+
+	background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header p{
+	color: #ff0000;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	padding: 40px 0;
+	background: #CE0000;
+	background: -moz-linear-gradient(top, #CE0000 0%, #4FA400 50%, #21C52A 100%);
+	background: -webkit-linear-gradient(top, #CE0000 0%, #4FA400 50%, #21C52A 100%);
+	background: linear-gradient(to bottom, #CE0000 0%, #4FA400 50%, #21C52A 100%);
+
+}
+button{
+	border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+	border-style: solid;
+	border-width: 0;
+	text-rendering: auto;
+	color: initial;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 10px system-ui;
+	font-weight: bold;
+	max-width: 95%;
+
+}
+.button2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	max-width: 40%;
+}
+.buttons1{
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	text-align: center;
+
+}
+.buttons2{
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.buttons1:hover{
+	background: rgba(255, 255, 255);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+	cursor: pointer;
+}
+.buttons2:hover{
+	background: rgba(255, 255, 255);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+	cursor: pointer;
+}
+.main p{
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.b-container{
+	width:200px;
+	height:150px;
+	background-color: #ccc;
+	margin:0px auto;
+	padding:10px;
+	font-size:30px;
+	color: #fff;
+}
+.b-popup{
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	overflow:hidden;
+	position:fixed;
+	top:0px;
+}
+.b-popup .b-popup-content{
+	margin:40px auto 0px auto;
+	width: 80%;
+	padding:10px;
+	background-color: #c5c5c5;
+	border-radius:5px;
+	box-shadow: 0px 0px 10px #000;
+	max-height: 75%;
+	overflow: auto;
+}
+.b-popup-content p{
+	font-weight: bold; 
+	margin: 0;
+}
+footer{
+	width: 100%;
+	background-color: #818E9B;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer p{
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.sociallButtons{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0 8px 0;
+}
+.sociallButtons img{
+ 	width: 55px;
+ 	height: 55px;
+}
+hr{
+	border: none;
+    color: red;
+    background-color: red;
+    height: 2px;
+    width: 100%;
+    margin: 0 0 20px;
+}
+.b-popup .b-popup-img{
+	margin:40px auto 0px auto;
+	width: 80%;
+	padding:10px;
+	background-color: #c5c5c5;
+	border-radius:5px;
+	box-shadow: 0px 0px 10px #000;
+	max-height: 92%;
+	overflow: auto;
+}
+@media only screen and (max-width: 670px) {
+	.buttons1{
+		font-size: 10px;
+	}
+	.buttons2{
+		font-size: 10px;
+	}
+	.main p{
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 640px) {
+	header{
+		padding: 28px 0;
+	}
+	header p{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 560px) {
+	footer p{
+		font-size: 15px;
+	}
+	hr{
+    	margin: 0 0 15px;
+	}
+}
+@media only screen and (max-width: 530px) {
+	header p{
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 411px) {
+	header p{
+		font-size: 15px;
+	}
+	.main p{
+		font-weight: normal;
+	}
+	.sociallButtons img{
+ 		width: 35px;
+ 		height: 35px;
+	}
+}
+@media only screen and (max-width: 393px) {
+	.buttons1{
+		font-size: 10px;
+		padding: 7px;
+	}
+	.buttons2{
+		font-size: 10px;
+		padding: 7px;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.buttons1{
+		font-size: 7px;
+		padding: 7px;
+	}
+	.buttons2{
+		font-size: 7px;
+		padding: 7px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.main p{
+		font-size: 15px;
+	}
+	.buttons1{
+		font-size: 8px;
+		padding: 7px;
+	}
+	.buttons2{
+		font-size: 8px;
+		padding: 7px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.main p{
+		font-size: 10px;
+	}
+	.buttons1{
+		font-size: 7px;
+		padding: 7px;
+	}
+	.buttons2{
+		font-size: 7px;
+		padding: 7px;
+	}
+}
+.setificate{
+	display: flex;
+	justify-content: space-around;
+}
+.setificate-img{
+	width: 17%;
+	height: 17%;
+	border: 2px dashed;
+}
+.setificate-img:hover{
+	-webkit-filter: brightness(60%);
+	cursor: pointer;
+}
+.popButton{
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.popButton:hover{
+	background: rgba(255, 255, 255);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+	cursor: pointer;
+}
