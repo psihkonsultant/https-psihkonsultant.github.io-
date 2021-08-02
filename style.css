@@ -20,7 +20,7 @@ header{
 }
 header p{
 	color: white;
-	font-family: Arial;
+	font-family: 'Merriweather', serif;
 	font-weight: bold;
 	font-size: 25px;
 	text-align: center;
@@ -68,7 +68,7 @@ button{
 	box-sizing: border-box;
 	transition: all 500ms ease; 
 	text-align: center;
-
+	font-family: 'Merriweather', serif;
 }
 .buttons2{
 	border: none;
@@ -131,6 +131,7 @@ button{
 .b-popup-content p{
 	font-weight: bold; 
 	margin: 0;
+	font-family: 'Merriweather', serif;
 }
 footer{
 	width: 100%;
